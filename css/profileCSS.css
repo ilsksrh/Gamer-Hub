@@ -1,0 +1,105 @@
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Kdam+Thmor+Pro&family=Montserrat:wght@200;300&family=Press+Start+2P&family=Teko&display=swap');
+
+    body {
+        font-family: 'Black Ops One', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color:   #000000;
+    }
+
+     /*.container {
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: none;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        color: #fff;
+    } */
+    input[type="submit"]{
+        font-family: 'Black Ops One', sans-serif;
+        padding: 9px 17px;
+        font-size: 16px;
+        background-color: #5d2f89;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        transition: background-color 0.3s, transform 0.2s ease, color 0.3s;
+        box-shadow: 0 0 10px #bd64f8;
+    }
+    input[type="submit"]:hover {
+        background-color: #7c4dff;
+        color: #fff;
+        transform: translateY(-5px);
+        box-shadow: 0 0 20px #bd64f8;
+    }
+    input[type="submit"]:active{
+        transform: scale(0.96);
+        animation: glow 0.5s infinite;
+    }
+    .float-container {
+        border: 3px solid #fff;
+        padding: 20px;
+    }
+
+    .float-child {
+        width: 40%;
+        float: left;
+        padding: 20px;
+        border: 2px solid red;
+    }
+
+    .rounded-avatar {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        border: 4px solid ;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    h2 {
+
+        color: #ffffff;
+    }
+    h2, p {
+        color: #fff;
+    }
+    p::first-letter {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .label {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 2px 6px;
+        border-radius: 4px;
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+
+    form {
+        margin-bottom: 10px;
+    }
+   /* .avatar {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .avatar-container {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: cover;
+        overflow: hidden;
+
+    }
+
+    .rounded-avatar {
+        width: 100%;
+        height: auto;
+        border-radius: 40%;
+    } */

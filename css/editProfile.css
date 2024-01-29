@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Kdam+Thmor+Pro&family=Montserrat:wght@200;300&family=Press+Start+2P&family=Teko&display=swap');
+
+body {
+    font-family: 'Black Ops One', sans-serif;
+    height: 100vh;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(to bottom, #000000, #2b1147, #482d60, #7b52a3); */
+}
+.btn-primary,
+a.btn-secondary {
+    font-family: 'Black Ops One', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s ease, color 0.3s;
+    box-shadow: 0 0 10px #bd64f8;
+    /* margin-left: 10px; */
+}
+
+.btn-primary {
+    font-family: 'Black Ops One', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5d2f89;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s ease, color 0.3s;
+    box-shadow: 0 0 10px #bd64f8;
+    margin-right: 15px;
+}
+
+.btn-primary:hover {
+    background-color: #7c4dff;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #bd64f8;
+}
+
+.btn-primary:active {
+    transform: scale(0.96);
+    animation: glow 0.5s infinite;
+}
+
+a.btn-secondary {
+    font-family: 'Black Ops One', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #5d2f89;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s ease, color 0.3s;
+    box-shadow: 0 0 10px #bd64f8;
+    margin-left: 15px;
+}
+
+a.btn-secondary:hover {
+    background-color: #7c4dff;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #bd64f8;
+}
+
+a.btn-secondary:active {
+    transform: scale(0.96);
+    animation: glow 0.5s infinite;
+}
+
+
+.form-group mt-3 p.inputError {
+    color: white;
+}
+.form-group.mt-3 label {
+    color: white;
+}
+.h6, h6 {
+    color: white;
+}
+.form-group.mt-3 h6 {
+    color: white;
+}
+.form-group label {
+    color: white;
+}
+.form-group label {
+    color: white;
+    margin-bottom: 8px;
+    display: block;
+}
+.form-group h6 {
+    color: white;
+}
+
+/* .form-group h6[for="imageId"] {
+     background-color: #5d2f89;
+     padding: 5px 10px;
+     border-radius: 5px;
+     display: inline-block;
+ }
+ .form-group input[type="file"] {
+     border-radius: 8px;
+     border: 1px solid #0b0b0b;
+ } */
+    
+ 

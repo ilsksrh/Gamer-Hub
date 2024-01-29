@@ -1,0 +1,123 @@
+/*Basic CSS for styling */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Kdam+Thmor+Pro&family=Montserrat:wght@200;300&family=Press+Start+2P&family=Teko&display=swap');
+body {
+    font-family: 'Black Ops One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.btn-custom {
+    background-color: #5d2f89 !important;
+
+    font-family: 'Black Ops One', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s ease, color 0.3s;
+    box-shadow: 0 0 10px #bd64f8;
+    margin-right: 15px;
+}
+
+.btn-custom:hover {
+    background-color: #7c4dff;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px #bd64f8;
+}
+
+.btn-custom:active {
+    transform: scale(0.96);
+    animation: glow 0.5s infinite;
+}
+
+.btn-custom-light {
+    background-color: #fff;
+    color: #5d2f89;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom-light:hover {
+    background-color: #d9d9d9;
+    color: #5d2f89;
+}
+
+
+
+/*header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.categories {
+    margin-bottom: 30px;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categories ul li {
+    margin-bottom: 10px;
+}
+
+.featured-products {
+    margin-bottom: 50px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
